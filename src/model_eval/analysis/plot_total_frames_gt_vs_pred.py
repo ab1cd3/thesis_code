@@ -17,7 +17,7 @@ from model_eval.config import (
 
 def plot_total_frames_gt_vs_pred_by_series(
     rename_labels: bool = True,
-    save_path: Path | None = None,
+    save_path: Path | None = None
 ) -> None:
     """
     Side-by-side bars of total frames with GT vs PRED detections per series.

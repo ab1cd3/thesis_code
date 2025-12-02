@@ -4,8 +4,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from model_eval.analysis.error_stats import compute_pred_labels_on_gt_frames
-from model_eval.data.loaders import load_pred_iou
+from model_eval.analysis.error_labels import compute_pred_labels_on_gt_frames
 from model_eval.config import (
     REPORTS_ANALYSIS_FIGURES,
     IOU_THRESHOLD,

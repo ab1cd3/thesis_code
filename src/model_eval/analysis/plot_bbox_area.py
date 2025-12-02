@@ -13,14 +13,14 @@ from model_eval.config import (
     GT_SOURCE,
     PRED_SOURCE,
     GT_COLOR,
-    PRED_COLOR,
+    PRED_COLOR
 )
 
 
 def plot_bbox_area_violin_by_series(
     rename_labels: bool = True,
     save_path: Path | None = None,
-    log_scale: bool = True,
+    log_scale: bool = True
 ) -> None:
     """
     Create a violin plot comparing bbox area distributions between GT and PRED

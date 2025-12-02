@@ -25,6 +25,7 @@ def add_bbox_area(
 
     return df
 
+
 def iou_xyxy(box_a: np.ndarray, box_b: np.ndarray) -> float:
     """
     Intersection-over-Union for boxes in (x_min, y_min, x_max, y_max) format.

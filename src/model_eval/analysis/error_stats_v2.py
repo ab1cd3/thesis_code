@@ -1,4 +1,4 @@
-# src/model_eval/analysis/error_stats_2.py
+# src/model_eval/analysis/error_stats_v2.py
 
 from typing import Tuple
 import pandas as pd

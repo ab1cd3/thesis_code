@@ -1,6 +1,6 @@
-# scripts/compute_error_stats_2.py
+# scripts/compute_error_stats_v2.py
 
-from model_eval.analysis.error_stats_2 import (
+from model_eval.analysis.error_stats_v2 import (
     compute_error_count_by_event,
     validate_error_stats
 )
