@@ -10,7 +10,6 @@ from model_eval.config import (
     PRED_SOURCE,
     IOU_THRESHOLD
 )
-from model_eval.analysis.error_stats import compute_error_counts_per_series
 
 
 def compute_iou_xyxy(box_a: np.ndarray, box_b: np.ndarray) -> float:

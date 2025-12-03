@@ -19,7 +19,9 @@ from .utils.constants import (
     TARGET_HEIGHT,
     GT_SOURCE,
     PRED_SOURCE,
-    IOU_THRESHOLD
+    IOU_THRESHOLD,
+    FIFTYONE_DATASET_NAME,
+    FIFTYONE_CLASS_NAME
 )
 
 from .utils.colors import (
